@@ -1,0 +1,109 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.conteainer{
+    display: flex;
+}
+
+.form-left-section{
+    background-color: aqua;
+    width: 60%;
+    padding-top: 100px 0;
+}
+.form-left-wrapper{
+padding-left: 160px;
+position: relative;
+padding-top: 100px ;
+}
+
+.form-left-wrapper h2{
+    color: blue;
+    font-size:45px ;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    bottom: 30%;
+}
+form .name{
+    padding-bottom: 20px;
+    display: flex;
+
+}
+form .name input{
+    background-color: azure;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 40%;
+}
+form .name textarea{
+    background-color: azure;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    width: 88%;
+    height: 100px;
+}
+.submitbtn button{
+background-color: rgb(246, 243, 243);
+border: 1px solid blue;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+padding: 12px 15px;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+
+
+
+}
+.form-right-section{
+    background-color:aliceblue;
+    width: 40%;
+    padding-left: 60px;
+    padding-top: 100px 0;
+    padding-top: 60px ;
+}
+.form-right-section h4{
+font-size: 30px;
+}
+.featur-list ul li{
+    padding:10px 0 ;
+    
+}
+.about-us button{
+    background-color:rgb(11, 242, 242);
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+.about-us button:hover{
+    background-color: rgb(215, 134, 134);
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+.submitbtn button:hover{
+background-color: rgb(215, 134, 134);
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
